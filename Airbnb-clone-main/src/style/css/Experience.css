@@ -1,0 +1,74 @@
+.experience {
+  background: black;
+  /* height: 100vh; */
+  color: white;
+}
+
+.experience__header {
+  display: flex !important;
+  padding-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.experience__headerRight {
+  flex: 1 1 auto;
+}
+
+.experience__headerRight > div > span {
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.experience__headerLeft {
+  flex: 0 0 auto;
+}
+
+.experience__headerLeft > button {
+  cursor: pointer !important;
+  display: inline-block !important;
+  margin: 0px !important;
+  position: relative !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  width: auto !important;
+  touch-action: manipulation !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  outline: none !important;
+  padding: 7px 15px !important;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+  border-color: rgb(255, 255, 255) !important;
+  background: transparent !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.experience__body {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+
+.experience__body:nth-child(n) > :nth-child(1) {
+  flex: 1 1 35%;
+}
+
+.experience__body:nth-child(n) > :nth-child(2) {
+  flex: 1 1 35%;
+}
+
+.experience__body:nth-child(n) > :nth-child(3) {
+  flex: 1 1 35%;
+}
+
+.experience__body:nth-child(n) > :nth-child(4) {
+  flex: 1 1 35%;
+}

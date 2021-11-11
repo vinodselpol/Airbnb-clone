@@ -1,0 +1,79 @@
+.banner {
+  height: 60vh;
+  position: relative;
+  background: url("https://a0.muscache.com/im/pictures/2ce67edf-49f9-4666-9c51-94419a9b7e6a.jpg?im_w=1920")
+    center content-box;
+  background-position-y: 60%;
+}
+.banner__info {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.banner__info > span {
+  font-size: 110px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.02em;
+  line-height: 92px;
+}
+
+.banner__info > a {
+  cursor: pointer !important;
+  margin: 0px !important;
+  display: inline-block !important;
+  position: relative !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  width: auto !important;
+  -ms-touch-action: manipulation !important;
+  touch-action: manipulation !important;
+  margin-top: 22px !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  outline: none !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  -webkit-transition: box-shadow 0.2s ease, -webkit-transform 0.1s ease,
+    transform 0.1s ease !important;
+  -moz-transition: box-shadow 0.2s ease, transform 0.1s ease !important;
+  transition: box-shadow 0.2s ease, -ms-transform 0.1s ease,
+    -webkit-transform 0.1s ease, transform 0.1s ease !important;
+  border-color: #222222 !important;
+  background: #ffffff !important;
+  color: #222222 !important;
+  background-color: var(--cta-bg-color, #ffffff) !important;
+  border: none !important;
+}
+
+.banner__info > a:hover {
+  background-color: #ff7779 !important;
+  color: #ffffff !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  border-radius: 0px !important;
+}

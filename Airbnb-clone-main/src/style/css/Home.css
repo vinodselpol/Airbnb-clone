@@ -1,0 +1,22 @@
+.home__section {
+  display: flex;
+  /* padding-left: 80px;
+  padding-right: 80px; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.home > h2 {
+  font-size: 35px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.home__hosts {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  display: flex;
+}
